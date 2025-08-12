@@ -15,17 +15,17 @@ Both models are designed to classify news articles as *fake* or *real*, enabling
 ├── FakeNewswithBi_LSTm.ipynb # Bi-LSTM model implementation\
 └── README.md # Project documentation
 
----
 
 ##  Usage Instructions
 
 1. **Clone the repository**
    ```bash
    git clone https://github.com/marwan-rashad5820/Fake-News-with-LSTM.git
+   
    cd Fake-News-with-LSTM
    ```
    
----
+
 
    # Install dependencies
 ```
@@ -33,6 +33,7 @@ pip install -r requirements.txt
 ```
 
 ---
+
 ## 📈 Results
 
 | Model     | Accuracy | Loss   |
@@ -42,14 +43,14 @@ pip install -r requirements.txt
 
 📊 **Observation:** The Bi-LSTM model outperformed the LSTM model by 4% in accuracy and achieved a lower loss, showing better generalization.
 
---
+
 
 # Insights
 • LSTM effectively captures sequences in one direction.\
 • Bi-LSTM leverages bidirectional context, which may enhance accuracy.\
 • Initial experiments suggest Bi-LSTM may outperform LSTM, but you should confirm with your results.
 
----
+
 
 # Future Enhancements
 • Add GRU, Transformer, or BERT based models\
